@@ -1,0 +1,28 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+a {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  margin-right: 30px;
+  background-color: lightgray;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 30px;
+}
+
+a:hover {
+  color: white;
+  background-color: gray;
+}
+
+h1 {
+  margin-left: 20px;
+}
